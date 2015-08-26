@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Danwu.SimpleFactory.Client">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAgAAAAAAAAAAAAAAAAAAAwAAAIAAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SimpleFactory" />
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Danwu.SimpleFactory.ConcreateProductA" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Danwu.SimpleFactory.ConcreateProductB" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Danwu.SimpleFactory.SimpleFactory">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="ConcreateProductB" Type="Danwu.SimpleFactory.ConcreateProductB" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="3.848" />
+        <Point X="1.875" Y="4.543" />
+        <Point X="7.062" Y="4.543" />
+        <Point X="7.062" Y="4.168" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>SimpleFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ConcreateProductA" />
+      <Property Name="ConcreateProductB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Danwu.SimpleFactory.Product">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Danwu.SimpleFactory.ProductType" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

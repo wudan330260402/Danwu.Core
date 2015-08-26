@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Framework\bin\Debug\Framework.dll
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Framework\bin\Debug\Framework.pdb
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Framework\obj\Debug\Framework.dll
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Framework\obj\Debug\Framework.pdb

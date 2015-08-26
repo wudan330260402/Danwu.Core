@@ -1,0 +1,51 @@
+﻿2015-07-12 17:49:22.159 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 17:49:22.524 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 17:49:22.527 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 17:49:22.528 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 17:49:22.530 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 17:49:22.533 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 17:50:11.212 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 17:50:11.467 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 17:50:11.469 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 17:50:11.471 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 17:50:11.473 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 17:50:11.474 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 17:55:07.930 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 17:55:08.040 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 17:55:08.042 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 17:55:08.045 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 17:55:08.047 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 17:55:08.049 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 17:56:15.280 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 17:56:15.452 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 17:56:15.458 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 17:56:15.468 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 17:56:15.473 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 17:56:15.480 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 17:56:15.788 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 2015/7/26.
+2015-07-12 17:56:57.069 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 17:56:57.226 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 17:56:57.228 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 17:56:57.229 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 17:56:57.231 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 17:56:57.235 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 17:56:57.417 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 2015/7/26.
+2015-07-12 18:01:34.314 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 18:01:34.542 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 18:01:34.551 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 18:01:34.554 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 18:01:34.558 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 18:01:34.560 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 18:02:57.579 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 18:02:57.779 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 18:02:57.788 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 18:02:57.790 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 18:02:57.792 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 18:02:57.797 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.
+2015-07-12 18:02:58.085 INFO  NServiceBus.Licensing.LicenseManager Trial for Particular Service Platform is still active, trial expires on 2015/7/26.
+2015-07-12 18:05:19.940 INFO  DefaultFactory Logging to 'E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Client\bin\Debug\' with level Info
+2015-07-12 18:05:20.114 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Sagas' storage.
+2015-07-12 18:05:20.124 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Timeouts' storage.
+2015-07-12 18:05:20.128 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Subscriptions' storage.
+2015-07-12 18:05:20.130 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+Outbox' storage.
+2015-07-12 18:05:20.138 INFO  NServiceBus.Persistence.PersistenceStartup Activating persistence 'InMemoryPersistence' to provide storage for 'NServiceBus.Persistence.StorageType+GatewayDeduplication' storage.

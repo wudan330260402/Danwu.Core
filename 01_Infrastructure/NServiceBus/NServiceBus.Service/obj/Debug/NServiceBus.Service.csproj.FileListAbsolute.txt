@@ -1,0 +1,1 @@
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Service\obj\Debug\NServiceBus.Service.csprojResolveAssemblyReference.cache

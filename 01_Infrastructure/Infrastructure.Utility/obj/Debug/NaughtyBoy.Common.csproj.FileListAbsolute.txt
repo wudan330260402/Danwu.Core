@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.dll
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.pdb
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.dll
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.pdb
+C:\Users\Administrator\Desktop\wudan\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.csprojResolveAssemblyReference.cache
+E:\项目\MCake\后台管理\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.dll
+E:\项目\MCake\后台管理\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.pdb
+E:\项目\MCake\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.csprojResolveAssemblyReference.cache
+E:\项目\MCake\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.dll
+E:\项目\MCake\后台管理\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.pdb
+E:\资料\架构\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.dll
+E:\资料\架构\NaughtyBoy\Common\bin\Debug\NaughtyBoy.Common.pdb
+E:\资料\架构\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.csprojResolveAssemblyReference.cache
+E:\资料\架构\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.dll
+E:\资料\架构\NaughtyBoy\Common\obj\Debug\NaughtyBoy.Common.pdb

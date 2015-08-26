@@ -1,0 +1,4 @@
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Release\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Release\Danwu.CQRS.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\obj\Release\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\obj\Release\Danwu.CQRS.pdb

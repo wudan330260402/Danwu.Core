@@ -1,0 +1,11 @@
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\obj\Debug\Danwu.Mongo.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\Danwu.Mongo.dll
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\Danwu.Mongo.pdb
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Bson.dll
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Driver.dll
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Bson.pdb
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Bson.xml
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Driver.pdb
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\bin\Debug\MongoDB.Driver.xml
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\obj\Debug\Danwu.Mongo.dll
+E:\资料\架构\Danwu\01_Infrastructure\Mongo\Danwu.Mongo\obj\Debug\Danwu.Mongo.pdb

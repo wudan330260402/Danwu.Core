@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+					assembly="NaughtyBoy.DomainModel" namespace="NaughtyBoy.DomainModel.Entity">
+    <class name="NaughtyBoy.DomainModel.Entity.Role, NaughtyBoy.DomainModel" table="WD_Role">
+        <id name="ID" column="ID" type="long">
+            <generator class="native" />
+        </id>
+        <property name="RoleCode" column="RoleCode" type="String" />
+        <property name="RoleName" column="RoleName" type="String" />
+        <property name="State" column="State" type="Int32" />
+        <property name="ParentID" column="ParentID" type="long" />
+        <property name="RoleDesc" column="RoleDesc" type="String" />
+        <property name="CreateTime" column="CreateTime" type="DateTime" />
+    </class>
+</hibernate-mapping>

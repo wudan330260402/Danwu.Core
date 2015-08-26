@@ -1,0 +1,17 @@
+E:\资料\架构\NaughtyBoy\CQRS\CQRS\bin\Debug\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\CQRS\CQRS\bin\Debug\Danwu.CQRS.pdb
+E:\资料\架构\NaughtyBoy\CQRS\CQRS\obj\Debug\Danwu.CQRS.csprojResolveAssemblyReference.cache
+E:\资料\架构\NaughtyBoy\CQRS\CQRS\obj\Debug\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\CQRS\CQRS\obj\Debug\Danwu.CQRS.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Debug\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Debug\Danwu.CQRS.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\obj\Debug\Danwu.CQRS.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\obj\Debug\Danwu.CQRS.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Danwu.CQRS\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\bin\Debug\Danwu.CQRS.dll
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\bin\Debug\Danwu.CQRS.pdb
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\obj\Debug\Danwu.CQRS.dll
+E:\资料\架构\Danwu\01_Infrastructure\Danwu.CQRS\obj\Debug\Danwu.CQRS.pdb

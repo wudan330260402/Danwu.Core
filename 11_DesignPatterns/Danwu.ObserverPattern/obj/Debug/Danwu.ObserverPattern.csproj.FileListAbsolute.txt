@@ -1,0 +1,4 @@
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.ObserverPattern\bin\Debug\Danwu.ObserverPattern.dll
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.ObserverPattern\bin\Debug\Danwu.ObserverPattern.pdb
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.ObserverPattern\obj\Debug\Danwu.ObserverPattern.dll
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.ObserverPattern\obj\Debug\Danwu.ObserverPattern.pdb

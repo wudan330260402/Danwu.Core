@@ -1,0 +1,16 @@
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.dll.config
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.dll
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.pdb
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.csprojResolveAssemblyReference.cache
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.dll
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.pdb
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\NaughtyBoy\Service\Danwu.Services.Tests\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.dll.config
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.dll
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\bin\Debug\Danwu.Services.Tests.pdb
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.dll
+E:\资料\架构\Danwu\Service\Danwu.Services.Tests\obj\Debug\Danwu.Services.Tests.pdb

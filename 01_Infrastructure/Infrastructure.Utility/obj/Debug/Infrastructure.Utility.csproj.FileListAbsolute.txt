@@ -1,0 +1,14 @@
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\bin\Debug\Infrastructure.Utility.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\bin\Debug\Infrastructure.Utility.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\bin\Debug\NuGet.Core.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\bin\Debug\Infrastructure.Utility.dll
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\bin\Debug\Infrastructure.Utility.pdb
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.dll
+E:\资料\架构\Danwu\01_Infrastructure\Infrastructure.Utility\obj\Debug\Infrastructure.Utility.pdb

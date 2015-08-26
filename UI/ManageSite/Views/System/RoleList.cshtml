@@ -1,0 +1,156 @@
+﻿@model ManageSite.Models.UserModel
+@{
+    ViewBag.Title = "用户管理";
+    Layout = "~/Views/Shared/_List.cshtml";
+}
+@section Head{
+
+    <script type="text/javascript">
+        $(function () {
+
+            $('#treeGrid').treegrid({
+                url: '/System/QueryRole',
+                idField: 'ID',
+                treeField: 'RoleName',
+                fitColumns: true,
+                border: false,
+                nowrap: true,
+                columns: [[
+                    { title: '角色名称', field: 'RoleName', width: 400 },
+                    { title: '角色描述', field: 'RoleDesc', width: 300 },
+                    { title: '状态', field: 'State', width: 50,align:'center' },
+                    { title: '创建时间', field: 'CreateTime', align: 'center', width: 150 },
+                    {
+                        field: 'RoleCode',
+                        title: '操作',
+                        width: 80,
+                        align: 'center',
+                        formatter: function (value, row, index) {
+                            if (value == "Administrator") {
+                                return "";
+                            } else {
+                                var str = "<div style='padding-top:5px'><img onclick='grantLimitFun();'  src='/jquery-easyui-1.3.6/themes/icons/icon-edit2.png' title='编辑'/>&nbsp;";
+                                str += "<img onclick='grantLimitFun();'  src='/jquery-easyui-1.3.6/themes/icons/icon-key.png' title='授权'/>&nbsp;";
+                                str += "<img onclick='grantLimitFun();'  src='/jquery-easyui-1.3.6/themes/icons/no.png' title='删除'/></div>";
+                                return str;
+                            }
+                        }
+                    }
+                ]],
+                onContextMenu: function (e, row) {
+                    e.preventDefault();
+                    $(this).treegrid('unselectAll');
+                    $(this).treegrid('select','1');
+                    $('#menu').menu('show', {
+                        left: e.pageX,
+                        top: e.pageY
+                    });
+                }
+            });
+        });
+
+        var grantLimitFun = function () {
+
+        }
+
+    </script>
+
+}
+<div style="width: 100%; height: 100%;">    
+    <div style="width: 100%">
+
+        @*<table id="treeGrid" title="角色管理" class="easyui-treegrid" style="width:1000px;"
+            data-options="
+                url: '@Url.Content("~/System/QueryRole")',
+                method: 'post',
+                rownumbers: true,
+                idField: 'ID',
+                treeField: 'RoleName',
+                parentField:'ParentID',
+                toolbar:'#tb'
+            ">
+            <thead>
+                <tr>
+                    <th data-options="field:'RoleName',width:200">角色名称</th>
+                    <th data-options="field:'State',width:200,align:'left'">描述</th>
+                    <th data-options="field:'State',width:80,align:'center'">状态</th>
+                    <th data-options="field:'CreateTime',width:150,align:'center'">创建时间</th>
+                    <th data-options="width:150,align:'center'">操作</th>
+                </tr>
+            </thead>
+        </table>*@
+
+        <table id="treeGrid" title="角色管理" class="easyui-treegrid" style="width:1000px;">
+        </table>        
+        
+    </div>
+
+</div>
+<input type="hidden" id="eidtType" value="0" />
+
+<div id="dialogEditUser" icon="icon-add" title="添加角色" style="display: none;">
+    <div style="width: 300px; height: 100px; font-size: 12px; color: Black;">
+        <form id="userForm" name="userForm" method="post">
+            <input type="hidden" id="ID" name="ID" value="0" />
+            <input type="hidden" id="Mode" name="Mode" value="0" />
+            <table style="width: 300px; height: 100px; margin-left: 20px; margin-top: 15px;">
+                <tr>
+                    <td width="100">用&nbsp;户&nbsp;名：</td>
+                    <td width="200">
+                        <input type="text" id="UserName" name="UserName" data-options="required:true" class="easyui-validatebox" />
+                    </td>
+                    <td width="130" id="tdUserNameMsg" style="color: Red"></td>
+                </tr>
+                <tr>
+                    <td width="100">昵&nbsp;&nbsp;&nbsp;&nbsp;称：</td>
+                    <td width="200">
+                        <input type="text" id="NickName" name="NickName" data-options="required:true" class="easyui-validatebox" />
+                    </td>
+                    <td width="130" id="tdNickNameMsg" style="color: Red"></td>
+                </tr>
+                <tr>
+                    <td>真实姓名：</td>
+                    <td>
+                        <input type="text" id="RealName" name="RealName" data-options="required:true" class="easyui-validatebox" />
+                    </td>
+                    <td width="130" id="tdRealNameMsg" style="color: Red"></td>
+                </tr>
+                <tr>
+                    <td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+                    <td style="padding-left: 3px">
+                        <select id="selectState" class="easyui-combobox" style="width: 50px; height: 20px;"
+                            data-options="required:true" editable='false'>
+                            <option value="1">启用</option>
+                            <option value="2">禁用</option>
+                        </select>
+                        <input type="hidden" id="State" name="State" value="0" />
+                    </td>
+                    <td width="130" id="tdStateMsg" style="color: Red"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<!-- 右键菜单 -->
+<div id="menu" class="easyui-menu">
+    <div onclick="addFun();" data-options="iconCls:'icon-add'">新增</div>
+    <div onclick="editFun();" data-options="iconCls:'icon-edit2'">编辑</div>
+    <div onclick="deleteFun();" data-options="iconCls:'icon-no'">删除</div>
+    @*<div id="mm-tabupdate">
+        刷新</div>
+    <div class="menu-sep">
+    </div>
+    <div id="mm-tabclose">
+        关闭</div>
+    <div id="mm-tabcloseall">
+        全部关闭</div>
+    <div id="mm-tabcloseother">
+        除此之外全部关闭</div>
+    <div class="menu-sep">
+    </div>
+    <div id="mm-tabcloseright">
+        当前页右侧全部关闭</div>
+    <div id="mm-tabcloseleft">
+        当前页左侧全部关闭</div>*@
+</div>

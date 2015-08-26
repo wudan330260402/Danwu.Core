@@ -1,0 +1,4 @@
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.AbstractFactory\bin\Debug\Danwu.AbstractFactory.dll
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.AbstractFactory\bin\Debug\Danwu.AbstractFactory.pdb
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.AbstractFactory\obj\Debug\Danwu.AbstractFactory.dll
+E:\资料\架构\Danwu\11_DesignPatterns\Danwu.AbstractFactory\obj\Debug\Danwu.AbstractFactory.pdb

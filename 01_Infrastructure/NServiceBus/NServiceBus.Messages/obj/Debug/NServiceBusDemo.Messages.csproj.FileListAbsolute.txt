@@ -1,0 +1,16 @@
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.csprojResolveAssemblyReference.cache
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBusDemo.Messages.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBusDemo.Messages.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.pdb
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.xml
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.dll
+E:\资料\架构\NaughtyBoy\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.pdb
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBusDemo.Messages.dll
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBusDemo.Messages.pdb
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.dll
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.pdb
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\bin\Debug\NServiceBus.Core.xml
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.dll
+E:\资料\架构\Danwu\01_Infrastructure\NServiceBus\NServiceBus.Messages\obj\Debug\NServiceBusDemo.Messages.pdb

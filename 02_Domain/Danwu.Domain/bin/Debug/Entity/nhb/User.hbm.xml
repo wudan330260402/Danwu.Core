@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+					assembly="Danwu.DomainModel" namespace="Danwu.DomainModel.Entity">
+    <class name="Danwu.DomainModel.Entity.User, Danwu.DomainModel" table="WD_User">
+        <id name="ID" column="ID" type="long">
+            <generator class="native" />
+        </id>
+        <property name="UserName" column="UserName" type="String" />
+        <property name="NickName" column="NickName" type="String" />
+        <property name="RealName" column="RealName" type="String" />
+        <property name="PassWord" column="PassWord" type="String" />
+        <property name="State" column="State" type="Int32" />
+        <property name="CreateTime" column="CreateTime" type="DateTime" />
+        <property name="LastLogonTime" column="LastLogonTime" type="DateTime" />
+        <property name="LastLogonIP" column="LastLogonIP" type="String" />
+    </class>
+</hibernate-mapping>

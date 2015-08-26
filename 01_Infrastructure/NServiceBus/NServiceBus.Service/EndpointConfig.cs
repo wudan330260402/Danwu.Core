@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using NServiceBus;
+
+namespace NServiceBus.Service
+{
+    //[EndpointSLA("00:00:30")]
+    //public class EndpointConfig : IConfigureThisEndpoint, AsA_Server
+    //{
+
+    //}
+}

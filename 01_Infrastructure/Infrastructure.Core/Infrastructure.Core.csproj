@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A5164D6-A9CE-4AB3-9839-ECED431F7C7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infrastructure.Core</RootNamespace>
+    <AssemblyName>Infrastructure.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\10_lib\others\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Commons">
+      <HintPath>..\lib\Memcached\Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="EmitMapper">
+      <HintPath>..\..\10_lib\others\EmitMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\lib\Memcached\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\NHibernate-2.1.0.GA-bin\Required_Bins\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Memcached.ClientLibrary">
+      <HintPath>..\lib\Memcached\Memcached.ClientLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\10_lib\Microsoft Unity Application Block 2.0\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\10_lib\Microsoft Unity Application Block 2.0\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.XmlTransform">
+      <HintPath>..\..\packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\packages\mongocsharpdriver.1.8.3\lib\net35\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\packages\mongocsharpdriver.1.8.3\lib\net35\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\lib\NHibernate-2.1.0.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Linq">
+      <HintPath>..\lib\NHibernate-2.1.0.GA-bin\Required_Bins\NHibernate.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=2.8.60318.667, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\NuGet.Core.2.8.5\lib\net40-Client\NuGet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\HttpBasicAuthorizeAttribute.cs" />
+    <Compile Include="Caching\CacheHelper.cs" />
+    <Compile Include="Caching\CacheStorageFactory.cs" />
+    <Compile Include="Caching\DefaultCacheStorage.cs" />
+    <Compile Include="Caching\ICacheStorage.cs" />
+    <Compile Include="Caching\LocalCacheStorage.cs" />
+    <Compile Include="Caching\MemcacheStorage.cs" />
+    <Compile Include="Caching\NullObjectStorage.cs" />
+    <Compile Include="Caching\RedisStorage.cs" />
+    <Compile Include="Common\Assert.cs" />
+    <Compile Include="Common\PageInfo.cs" />
+    <Compile Include="Common\PageResult.cs" />
+    <Compile Include="Common\PageSearch.cs" />
+    <Compile Include="Config\AppConfig.cs" />
+    <Compile Include="Config\ApplicationSettingsFactory.cs" />
+    <Compile Include="Config\CalculateSettings1.csd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculateSettings.csd</DependentUpon>
+    </Compile>
+    <Compile Include="Config\IApplicationSettings.cs" />
+    <Compile Include="Config\WebConfigApplicationSettings.cs" />
+    <Compile Include="Data\Base\BaseHelper.cs" />
+    <Compile Include="Data\Base\IBaseInterface.cs" />
+    <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Data\EnumLibrary.cs" />
+    <Compile Include="Data\OracleHelper.cs" />
+    <Compile Include="Data\SqlHelper.cs" />
+    <Compile Include="DisposableObject.cs" />
+    <Compile Include="Domain\AggregateRoot.cs" />
+    <Compile Include="Domain\BusinessRule.cs" />
+    <Compile Include="Domain\EntityBase.cs" />
+    <Compile Include="Domain\IAggregateRoot.cs" />
+    <Compile Include="Domain\IEntity.cs" />
+    <Compile Include="Domain\ServiceBase.cs" />
+    <Compile Include="Domain\SysResult.cs" />
+    <Compile Include="Domain\ValueObjectBase.cs" />
+    <Compile Include="Email\EmailServiceFactory.cs" />
+    <Compile Include="Email\IEmailService.cs" />
+    <Compile Include="Email\SMTPEmailService.cs" />
+    <Compile Include="EventService\EventBus.cs" />
+    <Compile Include="EventService\IEvent.cs" />
+    <Compile Include="EventService\IEventHandler.cs" />
+    <Compile Include="Events\delegate\CommonEventArgs.cs" />
+    <Compile Include="Events\delegate\CommonEventHandler.cs" />
+    <Compile Include="Events\EventBus.cs" />
+    <Compile Include="Events\IEventBus.cs" />
+    <Compile Include="Events\IEventMoudle.cs" />
+    <Compile Include="Exceptions\RootException.cs" />
+    <Compile Include="Exceptions\ValueObjectInvalidException.cs" />
+    <Compile Include="Extension\DataRowExtension.cs" />
+    <Compile Include="Extension\ExpressionFunExtension.cs" />
+    <Compile Include="Extension\IEnumerableExtension.cs" />
+    <Compile Include="Extension\IEqualityComparerCreator.cs" />
+    <Compile Include="Extension\LambdaExtension.cs" />
+    <Compile Include="Extension\NullableExtension.cs" />
+    <Compile Include="Extension\ParameterRebinder.cs" />
+    <Compile Include="IOC\ComponentAttribute.cs" />
+    <Compile Include="IOC\IObjectContainer.cs" />
+    <Compile Include="IOC\IServiceLocator.cs" />
+    <Compile Include="IOC\IServiceRegister.cs" />
+    <Compile Include="IOC\ObjectContainer.cs" />
+    <Compile Include="IOC\ObjectContainerFactory.cs" />
+    <Compile Include="IOC\ServiceLocator.cs" />
+    <Compile Include="IOC\Unity\UnityObjectContainer.cs" />
+    <Compile Include="Log\Config\LogSettings.cs" />
+    <Compile Include="Log\ILogger.cs" />
+    <Compile Include="Log\Log4Net.cs" />
+    <Compile Include="Log\LoggerFactory.cs" />
+    <Compile Include="Log\LogHelper.cs" />
+    <Compile Include="Log\Model\LogLevelType.cs" />
+    <Compile Include="Log\Model\MongoDBLogDo.cs" />
+    <Compile Include="Log\MongoLogger.cs" />
+    <Compile Include="Mapper\AutoDataMapper.cs" />
+    <Compile Include="Mapper\DataMapper.cs" />
+    <Compile Include="Mapper\EmitDataMapper.cs" />
+    <Compile Include="Mapper\MapperBase.cs" />
+    <Compile Include="Repository\HttpSessionStorage.cs" />
+    <Compile Include="Repository\IRepositoryContext.cs" />
+    <Compile Include="Repository\ISessionStorage.cs" />
+    <Compile Include="Repository\RepositoryContext.cs" />
+    <Compile Include="Repository\RepositoryException.cs" />
+    <Compile Include="Repository\SessionStorageFactory.cs" />
+    <Compile Include="Repository\SortOrder.cs" />
+    <Compile Include="Repository\ThreadSessionStorage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryObject\CriteriaOperator.cs" />
+    <Compile Include="QueryObject\Criterion.cs" />
+    <Compile Include="QueryObject\OrderByClause.cs" />
+    <Compile Include="QueryObject\Query.cs" />
+    <Compile Include="QueryObject\QueryExtension.cs" />
+    <Compile Include="QueryObject\QueryOperator.cs" />
+    <Compile Include="Repository\IReadOnlyRepository.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Serializer\DefaultBinarySerializer.cs" />
+    <Compile Include="Serializer\IBinarySerializer.cs" />
+    <Compile Include="Serializer\ProtocolBufBinarySerializer.cs" />
+    <Compile Include="ServiceProxy\ChannelProxy.cs" />
+    <Compile Include="ServiceProxy\ServiceProxy.cs" />
+    <Compile Include="ServiceProxy\ServiceProxyFactory.cs" />
+    <Compile Include="Specifications\AndSpecification.cs" />
+    <Compile Include="Specifications\AnySpecification.cs" />
+    <Compile Include="Specifications\CompositeSpecification.cs" />
+    <Compile Include="Specifications\ISpecification.cs" />
+    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\IUnitOfWorkRepository.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="Unity\UnityContainerFactory.cs" />
+    <Compile Include="Unity\UnityControllerFacatory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EventService\EventBus.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AOP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\CalculateSettings.csd">
+      <Generator>CsdFileGenerator</Generator>
+      <LastGenOutput>CalculateSettings1.csd.cs</LastGenOutput>
+    </None>
+    <None Include="Config\CalculateSettings.csd.config">
+      <DependentUpon>CalculateSettings.csd</DependentUpon>
+    </None>
+    <None Include="Config\CalculateSettings.csd.diagram">
+      <DependentUpon>CalculateSettings.csd</DependentUpon>
+    </None>
+    <None Include="Config\CalculateSettings.csd.xsd">
+      <DependentUpon>CalculateSettings.csd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

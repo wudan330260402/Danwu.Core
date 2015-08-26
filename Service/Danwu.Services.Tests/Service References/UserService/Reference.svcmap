@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="adc2bb83-ddba-426f-bfbb-6162ab2f165a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.danwu.com/System/UserService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserService3.xsd" MetadataType="Schema" ID="3dbb6626-1361-4f76-9746-67ac0da015fc" SourceId="1" SourceUrl="http://api.danwu.com/System/UserService.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserService31.xsd" MetadataType="Schema" ID="2268b3ad-6f86-445d-9c04-af80042292d4" SourceId="1" SourceUrl="http://api.danwu.com/System/UserService.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserService32.xsd" MetadataType="Schema" ID="18375fa4-b715-4155-b04f-88d62cdd283f" SourceId="1" SourceUrl="http://api.danwu.com/System/UserService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserService1.wsdl" MetadataType="Wsdl" ID="98323e37-6237-49d3-b066-d73e54e0a06c" SourceId="1" SourceUrl="http://api.danwu.com/System/UserService.svc?wsdl" />
+    <MetadataFile FileName="UserService1.disco" MetadataType="Disco" ID="0be23edf-46aa-431e-886d-3899af91bd78" SourceId="1" SourceUrl="http://api.danwu.com/System/UserService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

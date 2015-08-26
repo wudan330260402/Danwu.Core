@@ -1,0 +1,14 @@
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\bin\Debug\Danwu.Application.DTO.dll
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\bin\Debug\Danwu.Application.DTO.pdb
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.dll
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.pdb
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\bin\Debug\NuGet.Core.dll
+E:\资料\架构\NaughtyBoy\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\bin\Debug\Danwu.Application.DTO.dll
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\bin\Debug\Danwu.Application.DTO.pdb
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\bin\Debug\Microsoft.Web.XmlTransform.dll
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\bin\Debug\NuGet.Core.dll
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.csprojResolveAssemblyReference.cache
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.dll
+E:\资料\架构\Danwu\02_Domain\Danwu.Application.DTO\obj\Debug\Danwu.Application.DTO.pdb
